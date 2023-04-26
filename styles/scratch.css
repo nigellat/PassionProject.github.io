@@ -1,0 +1,191 @@
+body {
+  background-color:#1E1E1E;
+}
+main {
+  background-color:#1E1E1E;
+  color: white;
+  margin-top: 58px;
+  padding-top: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.paragraph {
+  margin-top: 0px;
+  color: rgb(255, 247, 213);
+}
+
+.paragraph2 {
+  margin-top: 0px;
+  color:#5b81ff;
+  
+}
+
+
+/* main title */
+.top {
+  color: rgb(255, 90, 90);
+  text-decoration: underline;
+  font-size: 2vw;
+  font-weight: bold;
+  padding-top: 25px;
+}
+
+.h33 {
+  color: rgb(255, 90, 90);
+  text-decoration: underline;
+}
+
+.photo-grid{
+  background-color:#1E1E1E;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  grid-gap: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.overflow {
+  overflow: hidden;
+}
+
+/* resource page link */
+main a {
+  text-decoration: none;
+  color: white;
+}
+
+.scratch-link {
+  color:rgb(255, 247, 213);
+  display: inline-block;
+  margin: 0px;
+}
+
+/* video section */
+main h3 {
+  font-size: 1.75vw;
+  font-weight: bold;
+  margin-top: 50px;
+  color: rgb(255, 90, 90);
+  
+}
+
+.tutorial-tools,
+.tutorial-tools a {
+  display: inline-block;
+  color: gray;
+}
+
+
+@media (max-width: 600px) {
+  .maintutorialvideo {
+  width: 85%;
+  height: 150px;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+  .maintutorialvideo{
+    width: 85%;
+    height: 250px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .maintutorialvideo {
+    width: 85%;
+    height: 300px;
+  }
+}
+.grid {
+  background-color:#1E1E1E;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 0 auto;
+  grid-gap: 5px;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+  .grid {
+  grid-template-columns: 1fr;
+  }
+}
+
+@media (min-width: 600px) and (max-width: 1000px){
+  .grid{
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (min-width: 1000px) {
+  .grid {
+    grid-template-columns: 1fr 1fr 1fr;
+    height: 500px;
+  }
+}
+
+/* video iframe */
+.grid iframe {
+  background-color: #1E1E1E;
+  width: 100%;
+  height: 250px;
+}
+
+iframe {
+  border-radius: 5px;
+  background-color: #1E1E1E;
+  margin-top: 20px;
+}
+
+/* other resources */
+main p {
+  font-size: 1.5vw;
+  margin-top: 20px;
+}
+
+/* other resources links */
+main a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5vw;
+  display: block;
+  margin-bottom: 10px;
+}
+
+/* other resources links hover */
+main a:hover {
+  color: red;
+}
+
+.resources1 {
+  text-decoration: underline;
+  text-align: left;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  color: rgb(255, 90, 90);
+}
+
+.resources2 {
+  margin-top: 15px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+  color: #5b81ff;
+}
+
+.resources3 {
+  color: gray;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+
+.title-resources{
+  text-decoration: underline;
+}
+
+.text-resources {
+  color:rgb(255, 247, 213);
+  padding-right: 5px;
+}
