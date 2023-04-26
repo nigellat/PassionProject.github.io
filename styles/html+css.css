@@ -11,7 +11,7 @@ main {
 }
 .paragraph {
   margin-top: 0px;
-  color: rgb(255, 247, 213);
+  color: white;
 }
 
 .paragraph2 {
@@ -179,6 +179,6 @@ main a:hover {
 }
 
 .text-resources {
-  color:rgb(255, 247, 213);
+  color: white;
   padding-right: 5px;
 }
