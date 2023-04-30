@@ -1,38 +1,39 @@
-body {
-  background-color: #1E1E1E;
-}
-
-.grid {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 58px;
-  background-color: #1E1E1E;
-}
-
-.grid img {
-  height: 800px;
+img {
+  top: 0px;
+  position: fixed;
+  z-index: -1;
+  padding-top: 0px;
   width: 100%;
-  object-fit: cover;
-  object-position: left;
+  height: 100%;
 }
 
 .intro {
   color: white;
-  margin-top: 50px;
+  margin-top: 300px;
   font-size: 2vw;
   text-align: center;
+  background-color: #1E1E1E;
+  padding: 10px;
+  margin-left: 65px;
+  margin-right: 65px;
 }
 
 .p1 {
   color: white;
   text-align: center;
-  margin-top: 50px;
   font-size: 1.5vw;
+  background-color: #1E1E1E;
+  padding: 10px;
+  margin-left: 65px;
+  margin-right: 65px;
 }
 
 .p2 {
   color: white;
   text-align: center;
-  margin-top: 50px;
   font-size: 1.5vw;
+  background-color: #1E1E1E;
+  padding: 10px;
+  margin-left: 65px;
+  margin-right: 65px;
 }
